@@ -190,3 +190,60 @@ h1{
     75% { transform: translate(-5px, 5px) rotate(-5deg); }
     100% { transform: translate(0, 0) rotate(0deg); }
   }
+  .bestelling {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem;
+    background-color: #FFCC00;
+}
+
+.bestelling h1 {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.order-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.order-table th, .order-table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.order-table th {
+    background-color: #d1d1d1;
+}
+
+.order-table td {
+    font-size: 16px;
+}
+
+.totaal {
+    font-weight: bold;
+    background-color: #b31717;
+}
+
+.order-actie {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 0.5rem;
+} 
+
+.knoppenbestelling {
+    background-color: var(--groen);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.plus, .min{
+    background-color: #fdfdfd;
+    margin: 1rem;
+}
